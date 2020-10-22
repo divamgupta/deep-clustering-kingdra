@@ -1,0 +1,16 @@
+{ 
+
+	 "training_path": "ens_cluster_datasets/mnist/train_X.npy" , 
+	 "ground_truth_path" : "ens_cluster_datasets/mnist/train_Y.npy" ,  
+	 "n_iter":50 , 
+	 "n_en" : 10 ,  
+	 "n_epochs_per_iter0" : 5, 
+	 "n_epochs_per_iter" : 5, 
+	 "low_th"  : 1 , 
+	 "med_th" : 4,
+	 "high_th" : 9 , 
+	 "thresh" : 0.9,
+	 "batch_size" : 64  , 
+	 "n_class" : 10 
+
+}

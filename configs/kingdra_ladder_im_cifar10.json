@@ -1,0 +1,19 @@
+{ 
+
+	"training_path": "ens_cluster_datasets/cifar10/train_X.npy" ,
+	"ground_truth_path" : "ens_cluster_datasets/cifar10/train_Y.npy"  ,
+	"noise_std":0.3  ,
+	"n_epochs_per_iter0" : 1 ,
+	"n_epochs_per_iter" : 1 ,
+	"n_iter":30 ,
+	"mi_loss_w_init":1 ,
+	"ladder_loss_w_init":1 ,
+	"noise_kl_w_init":0.0 ,
+	"last_layer_bn": true ,
+	"n_class" : 10  ,
+	"thresh":0  ,
+	"lr" : 0.02 ,
+	"mi_loss_w_it2" : 0.5 , 
+	"ens_common_mapping" : false 
+
+}

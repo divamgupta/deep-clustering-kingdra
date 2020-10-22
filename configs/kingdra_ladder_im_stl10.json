@@ -1,0 +1,16 @@
+{ 
+
+	"training_path": "ens_cluster_datasets/stl10/train_X.npy" ,
+	"ground_truth_path" : "ens_cluster_datasets/stl10/train_Y.npy"  ,
+	"n_epochs_per_iter" : 6 ,
+	"n_epochs_per_iter0" : 6 ,
+	"n_iter":30 ,
+	"mi_loss_w_init":0.2 ,
+	"ladder_loss_w_init":1 ,
+	"noise_kl_w_init":1 ,
+	"last_layer_bn": true ,
+	"noise_std": 1  ,
+	"mi_loss_w_it2":0  ,
+	"thresh":0 
+
+}

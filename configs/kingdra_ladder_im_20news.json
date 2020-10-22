@@ -1,0 +1,16 @@
+{ 
+
+    "training_path": "ens_cluster_datasets/20_news/train_X.npy" ,
+    "ground_truth_path" : "ens_cluster_datasets/20_news/train_Y.npy"  ,
+    "n_epochs_per_iter":5 ,
+    "n_iter":10  ,
+    "noise_std" : 0.3 ,
+    "mi_loss_w_init":0.2 ,
+    "ladder_loss_w_init":1 ,
+    "noise_kl_w_init":1 ,
+    "last_layer_bn":false ,
+    "n_class" : 20 ,
+    "fc_layer_sizes":[  1200  , 1200 , 20 ] ,
+    "thresh":0  
+
+}
