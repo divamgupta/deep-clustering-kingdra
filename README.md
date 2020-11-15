@@ -2,6 +2,7 @@
 
 ### Official implementation of ICLR 2020 paper Unsupervised Clustering using Pseudo-semi-supervised Learning
 
+Link to the blog post : https://divamgupta.com/unsupervised-learning/2020/10/31/pseudo-semi-supervised-learning-for-unsupervised-clustering.html
 
 ![](assets/outputs.png) 
 
