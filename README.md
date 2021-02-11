@@ -38,6 +38,7 @@ In this paper, we propose a framework that leverages semi-supervised models to i
 * Tensorflow 1.15.0 
 * Sklearn 0.20.4
 
+*Note that due to changes in Sklearn, version > 0.20.4 will result in wrong calculation of clustering accuracy.*
 
 
 ### Training
